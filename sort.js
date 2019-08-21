@@ -16,7 +16,7 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-const occurrences = db.collection('occurrences').orderBy('count', 'desc').limit(100);
+const occurrences = db.collection('trendscount').orderBy('count', 'desc').limit(100);
 
 const ranking = [];
 
